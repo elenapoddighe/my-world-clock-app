@@ -5,41 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <title>World clock by Elena Poddighe</title>
 </head>
 
 <body>
     <div class="container">
-        <h1>World clock</h1>
+        <h1>🌐 World clock ⏱️</h1>
         <select>
-            <option>Select a city...</option>
+            <option>🎯 Select a city and find out its time 🔍</option>
             <option>London</option>
             <option>Paris</option>
             <option>Barcelona</option>
             <option>Rome</option>
         </select>
-        <div class="city">
-            <h2>Los Angeles 🇺🇸</h2>
-            <div class="date">
-                August 16th 2022
+        <div class="main-container">
+            <div class="city">
+                <div class="date">
+                    🗓️ August 16th 2022
+                </div>
+                <h2>Los Angeles 🇺🇸</h2>
+                <div class="time">
+                    🕰️ 1:48:05 AM
+                </div>
             </div>
-            <div class="time">
-                1:48:05 AM
+            <div class="city">
+                <div class="date">
+                    🗓️ August 16th 2022
+                </div>
+                <h2>Sydney 🇦🇺</h2>
+                <div class="time">
+                    🕰️ 1:48:05 AM
+                </div>
             </div>
         </div>
-        <div class="city">
-            <h2>Sydney 🇦🇺</h2>
-            <div class="date">
-                August 16th 2022
-            </div>
-            <div class="time">
-                1:48:05 AM
-            </div>
+        <div class="suggestion">
+            Would you like to know what weather is in store for your location? Check out my awesome <a
+                href="https://elenas-awesome-weather-app.netlify.app/" target="_blank">weather application</a>.
         </div>
     </div>
 
-    <footer>Codeby <a href="https://github.com/elenapoddighe" target="_blank">Elena Poddighe</a> and is open-sourced on
-        <a href="https://github.com/elenapoddighe/my-world-clock-app" target="_blank">GitHub</a> and is hosted on <a
+    <footer>Codeby <a href="https://github.com/elenapoddighe" target="_blank">Elena Poddighe</a>, open-sourced on
+        <a href="https://github.com/elenapoddighe/my-world-clock-app" target="_blank">GitHub</a> and hosted on <a
             href="https://elenas-world-clock-app.netlify.app/" target="_blank">Netlify</a>
     </footer>
     <script src="src/index.js"></script>
