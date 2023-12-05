@@ -19,14 +19,14 @@
 <body>
     <div class="container">
         <h1>🌐 World clock ⏱️</h1>
-        <select>
+        <select id="city">
             <option>🎯 Select a city and find out its time 🔍</option>
-            <option>London</option>
-            <option>Paris</option>
-            <option>Barcelona</option>
-            <option>Rome</option>
+            <option value="Europe/London">London</option>
+            <option value="Europe/Paris">Paris</option>
+            <option value="Europe/Madrid">Madrid</option>
+            <option value="Europe/Rome">Rome</option>
         </select>
-        <div class="main-container">
+        <div class="main-container" id="cities">
             <div class="city" id="city-1">
                 <div class="date"></div>
                 <h2>Los Angeles 🇺🇸</h2>
