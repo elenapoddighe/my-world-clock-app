@@ -29,9 +29,9 @@ function updateCity(event) {
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `
             <div class="city">
-                <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
+                <div class="date">🗓️ ${cityTime.format("MMMM Do YYYY")}</div>
                 <h2>${cityName}</h2>
-                <div class="time">${cityTime.format(
+                <div class="time">🕰️ ${cityTime.format(
                   "h:mm:ss"
                 )} <small>${cityTime.format("A")}</small>
                 </div>
